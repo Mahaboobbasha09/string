@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       // let str = "Ram is bad boy";
+        //console.log(str.charAt(3));
+        //console.log(str.charCodeAt(0));
+        //console.log(str.slice(-1));
+        //console.log(str.length);
+        
+        //uppercase and lower case
+
+       /* let l=prompt("enter your name").toLowerCase();
+        console.log(l);
+
+        let u=prompt("enter your name").toUpperCase();
+        console.log(u);
+
+        let str="My Name is Basha".split("").reverse().join("").toUpperCase();
+        console.log(str);
+        
+        //username
+        let user=prompt("enter username");
+
+        if(user.length>5 && user.length<15){
+            console.log("Username is valid");
+        }
+        else{
+            console.log("username is not valid");
+        }
+        let fst = prompt("Enter firstName").toLowerCase();
+        let fst2 = prompt("Enter LastName").toLowerCase();
+        //let fst3="@gmail.com"
+        let res=`${fst}.${fst2}${"@gmail.com"}`
+        console.log(res);
+
+        //word counter
+        let word=prompt("enter your words").split(" ").length;
+        console.log(word);*/
+
+        let str=prompt("enter a name").toUpperCase();
+        //let newstr=str.split("").reverse().join("");
+        //console.log(newstr);
+        let res="";
+        for( i=str.length-1;i>=0;i--){
+            res+=str[i];
+        }
+        console.log(res)
+        if(str==res){
+            console.log("it is a palindrome");
+        }
+        else{
+            console.log("it is not a plaindrome")
+        }
+
+    </script>
+</body>
+</html>
